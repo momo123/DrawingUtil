@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="color_swatch_large">64.0dip</dimen>
+    <dimen name="color_swatch_small">48.0dip</dimen>
+    <dimen name="color_swatch_margins_large">8.0dip</dimen>
+    <dimen name="color_swatch_margins_small">4.0dip</dimen>
+
+</resources>

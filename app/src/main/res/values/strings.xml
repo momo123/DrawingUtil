@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">单指画图形</string>
+    <string name="delete_single">激活单个删除</string>
+    <string name="cancel_delete_single">关闭单个删除</string>
+    <string name="delete_all">删除全部</string>
+    <string name="double_click_tip">双击手指结束画图</string>
+    <string name="analysys_chart_num_tip">数量已达上限，请先删除</string>
+
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="dialog_title">选择颜色</string>
+
+    <string name="dot">点</string>
+    <string name="line">线</string>
+    <string name="circle">圆</string>
+    <string name="rec">矩形</string>
+    <string name="dbx">多边形</string>
+    <string name="zx">折线</string>
+
+    <string name="setting_color">设置颜色</string>
+    <string name="color_swatch_description">Color %1$d</string>
+    <string name="color_swatch_description_selected">Color %1$d selected</string>
+
+    <string name="save">保存</string>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pic_edit_bg">#CA000000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="lightGray">#e3e3e3</color>
+    <color name="black">#333</color>
+    <color name="brokenLine">#0081FF</color>
+    <color name="polygon">#9D21F8</color>
+
+    <color name="whiteGray">#f5f5f5</color>
+    <color name="skyBlue">#56abe4</color>
+    <color name="colorOrange">#FA7247</color>
+    <color name="stamp_text_red">#C82038</color>
+    <color name="bg_green">#0abc63</color>
+    <color name="color_959595">#959595</color>
+    <color name="color_e1dede">#e1dede</color>
+
+
+
+</resources>

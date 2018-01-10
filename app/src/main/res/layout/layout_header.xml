@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgLeft"
+            android:layout_width="45dp"
+            android:minWidth="45dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:visibility="invisible"
+            android:src="@mipmap/ic_back"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/titleContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textRight"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            />
+
+          <ImageView
+              android:id="@+id/iv_menu"
+              android:layout_width="45dp"
+              android:layout_height="45dp"
+              android:padding="10dp"
+              android:visibility="gone"
+              android:src="@mipmap/ic_menu"/>
+    </LinearLayout>
+
+
+</LinearLayout>
